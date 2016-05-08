@@ -1,1 +1,1 @@
-# openneurolab.github.com
+# openneurolab.github.io
