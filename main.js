@@ -27,7 +27,8 @@ $(document).ready(function()
 	function createImg() {
 		var img=$( '<img id="dynamic">' );     
 		$( document.createElement( 'img' ) );
-		var rand = parseInt( ( Math.random() * 2 ) + 1 );
+		//insert here the number of different png images minus 1
+		var rand = parseInt( ( Math.random() * 20 ) + 1 );
 		img.attr( 'src',"img/raw-mri"+rand+".png" );
 		img.appendTo( '#floats' );
 		img.css( { 'position': 'fixed' } );
@@ -74,7 +75,8 @@ $(document).ready(function()
 				$('#floats').children('img').each( function(i) 
 				{
 					$(this).fadeIn( 1000 );
-					var rand = parseInt( ( Math.random() * 5 ) + 1 );
+					//insert here the number of different png images minus 1
+					var rand = parseInt( ( Math.random() * 34 ) + 1 );
 					$(this).attr( 'src',"img/mri"+rand+".png" );
 				});
 			case 3210 :
