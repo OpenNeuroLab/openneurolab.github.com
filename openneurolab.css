@@ -209,7 +209,7 @@ blockquote p {
   position:absolute;
   z-index:2;
   bottom:-40px;
-  right:56%;
+  right:56.5%;
   width:50px;
   height:30px;
   border-style:solid;
@@ -231,17 +231,17 @@ blockquote p {
   position:absolute;
   z-index:2;
   bottom:-40px;
-  right:57%;
+  right:57.8%;
   width:20px;
-  height:31px;
+  height:35px;
   border-style:solid;
   border-width:0 5px 5px 0;
   border-color:#ffffff;
   margin-right:20px;
   background:transparent;
   /* css3 */
-  -webkit-border-bottom-right-radius:40px 50px;
-  -moz-border-radius-bottomright:40px 50px;
+  -webkit-border-bottom-right-radius:40px 55px;
+  -moz-border-radius-bottomright:40px 55px;
   border-bottom-right-radius:40px 50px;
   /* reduce the damage in FF3.0 */
   display:block;
@@ -311,7 +311,7 @@ blockquote p {
   bottom:-37px;
   right:42%;
   width:50px;
-  height:30px;
+  height:32px;
   border-style:solid;
   border-width: 0 0 5px 5px;
   border-color:#ffffff;
@@ -409,9 +409,9 @@ blockquote p {
   position:absolute;
   z-index:2;
   top:-40px;
-  right:43%;
+  right:43.5%;
   width:50px;
-  height:30px;
+  height:32px;
   border-style:solid;
   border-width:5px 5px 0 0;
   border-color:#ffffff;
@@ -431,7 +431,7 @@ blockquote p {
   position:absolute;
   z-index:2;
   top:-40px;
-  right:44%;
+  right:44.8%;
   width:20px;
   height:31px;
   border-style:solid;
@@ -509,7 +509,7 @@ blockquote p {
   position:absolute;
   z-index:2;
   top:-40px;
-  right:35%;
+  right:34.5%;
   width:50px;
   height:30px;
   border-style:solid;
@@ -531,7 +531,7 @@ blockquote p {
   position:absolute;
   z-index:2;
   top:-40px;
-  right:40%;
+  right:39.8%;
   width:20px;
   height:31px;
   border-style:solid;
