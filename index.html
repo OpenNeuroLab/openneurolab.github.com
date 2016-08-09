@@ -1,72 +1,140 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title>OpenNeuroimagingLaboratory</title>
-		<link rel="stylesheet" type="text/css" href="openneurolab.css" />
-		<link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-		<script src="./main.js"></script>
-		<!--<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />	-->
-	</head>
 
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>OpenNeuro</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Website for the Open Neuroimaging Laboratory" />
+	<meta name="keywords" content="Brain imaging, neuroscience, crowdsourced" />
+	<meta name="author" content="openneu.ro" />
+
+  <!-- 
+	//////////////////////////////////////////////////////
+
+	FREE HTML5 TEMPLATE 
+	DESIGNED & DEVELOPED by FreeHTML5.co
+		
+	Website: 		http://freehtml5.co/
+	Email: 			info@freehtml5.co
+	Twitter: 		http://twitter.com/fh5co
+	Facebook: 		https://www.facebook.com/fh5co
+
+	//////////////////////////////////////////////////////
+	 -->
+
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700,900' rel='stylesheet' type='text/css'>
+
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
+
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Simple Line Icons -->
+	<link rel="stylesheet" href="css/simple-line-icons.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
 	<body>
-		<div id="intro">
-			<h1>
-				Open Neuroimaging Laboratory
-			</h1>
-			<img id="earth" src="img/earth.gif" /><br />
-		</div>
-		<div id="floats">
-		</div>
-		<div id = "bubbles">
-			<div id = "bubble1">
-				<blockquote class="oval-speech-border-bl">
-					<p>
-						Loads of brain data available,<br>
-						but difficult to analyse
-					</p>
-				</blockquote>
-			</div>
-			<div id = "bubble2">
-				<blockquote class="oval-speech-border-br">
-					<p>
-						The Open Neuroimaging Lab aims<br>
-						at creating online collaborative tools<br> 
-						to allow anyone to participate
-					</p>
-				</blockquote>
-			</div>
-			<div id = "bubble3">
-				<blockquote class="oval-speech-border-tl">
-					<p>
-						People can collaborate remotely,<br> 
-						create data catalogues,<br> 
-						and share their expertise
-					</p>
-				</blockquote>
-			</div>
-			<div id = "bubble4">
-				<blockquote class="oval-speech-border-tr">
-					<p>
-						Our web app <b><a target="_blank" href="http://brainbox.pasteur.fr">BrainBox</a></b> shows<br> 
-						how this can be achieved: it allows people<br> 
-						to collaborate in real time on the<br> 
-						segmentation of MRI data
-					</p>
-				</blockquote>
+	
+	
+	<div id="fh5co-page">
+	<header id="fh5co-header" role="banner">
+		<div class="container">
+			<div class="header-inner">
+				<h1><i class="sl-icon-energy"></i><a href="index.html">Open Neuroimaging Laboratory</a></h1>
+				<nav role="navigation">
+					<ul>
+						<li><a class="active" href="index.html">Home</a></li>
+						<li><a href="https://openneuro.wordpress.com/">Blog</a></li>
+						  <li><a href="#"><i class="icon-twitter"></i> Twitter</a></li>
+						  <li><a href="#"><i class="icon-facebook"></i> Facebook</a></li>
+						  <li><a href="#"><i class="icon-github"></i> Github</a></li>
+					</ul>
+				</nav>
 			</div>
 		</div>
-		<div>
-		<!--
-			<p>
-				BrainBox is a web application by <b><a target="_blank" href="http://neuroanatomy.github.io">NAAT</a></b> to
-				visualise and segment collaboratively any brain MRI dataset available online.
-				Segmentations are automatically saved and can be downloaded as Nifti 2 files or
-				triangular meshes. Point BrainBox to your own Nifti 2 data, or try data catalogues
-				created by the community.
-			</p>
-			-->
+	</header>
+	<div id="fh5co-intro-section">
+		<div class="container">
+			<div class="row">
+			    <a href="#" class="featured-grid" style="background-image: url(images/big_banner.png);">
+				<div class="col-md-12 text-center">
+					<h2 style="color: white">Collaborative Applications for Neuroimaging</h2>
+				</div>
+			    </a>
+			</div>
+			<div class="row overlap200">
+			  <div class="col-md-3 col-md-offset-3 overlap120">
+			    <a href="#" class="featured-grid featured-grid-2" style="background-image: url(images/image_3.jpg);">
+			      <div class="desc">
+				<h3>BrainBox</h3>
+				<span>Annotate brains with pixel brushes</span>
+			      </div>
+			    </a>
+			  </div>
+			  <div class="col-md-3 overlap120">
+			    <a href="#" class="featured-grid featured-grid-2" style="background-image: url(images/image_8.jpg);">
+			      <div class="desc">
+				<h3>Mindcontrol</h3>
+				<span>Annotate brains with points and lines</span>
+			      </div>
+			    </a>
+			  </div>
+			</div>
 		</div>
+	</div>
+	
+	<footer id="fh5co-footer" role="contentinfo">
+		<div class="container">
+			<div class="col-md-12 fh5co-copyright text-center">
+				<p>&copy; 2016. CC-BY</p>	
+			</div>
+			
+		</div>
+	</footer>
+	</div>	
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- MAIN JS -->
+	<script src="js/main.js"></script>
+
 	</body>
 </html>
+
