@@ -459,7 +459,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-main-services-section,
 #fh5co-about-section,
 #fh5co-contact-section {
-  padding-bottom: 6em;
+  padding-bottom: 0em;
 }
 @media screen and (max-width: 768px) {
   #fh5co-featured-section,
@@ -486,7 +486,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-intro-section {
-  padding-top: 6em;
+  padding-top: 0em;
 }
 #fh5co-intro-section h2 {
   font-weight: 400;
@@ -1203,6 +1203,16 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .js .animate-box {
   opacity: 0;
+}
+
+.overlap200 {
+  position: relative;
+  margin-top: -200px;
+}
+
+.overlap120 {
+  position: relative;
+  margin-top: -120px;
 }
 
 /*# sourceMappingURL=style.css.map */

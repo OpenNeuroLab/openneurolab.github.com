@@ -508,6 +508,7 @@ h1, h2, h3, h4, h5, h6, figure {
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   border-radius: 4px;
+  z-index: 1;
 }
 @media screen and (max-width: 992px) {
   .featured-grid, .featured-grid.featured-grid-2 {
@@ -1210,9 +1211,9 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-top: -200px;
 }
 
-.overlap120 {
+.overlap100 {
   position: relative;
-  margin-top: -120px;
+  margin-top: -100px;
 }
 
 /*# sourceMappingURL=style.css.map */
