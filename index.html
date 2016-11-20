@@ -1,140 +1,270 @@
-
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!DOCTYPE HTML>
+<!--
+	Landed by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
 	<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>OpenNeuro</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Website for the Open Neuroimaging Laboratory" />
-	<meta name="keywords" content="Brain imaging, neuroscience, crowdsourced" />
-	<meta name="author" content="openneu.ro" />
-
-  <!-- 
-	//////////////////////////////////////////////////////
-
-	FREE HTML5 TEMPLATE 
-	DESIGNED & DEVELOPED by FreeHTML5.co
-		
-	Website: 		http://freehtml5.co/
-	Email: 			info@freehtml5.co
-	Twitter: 		http://twitter.com/fh5co
-	Facebook: 		https://www.facebook.com/fh5co
-
-	//////////////////////////////////////////////////////
-	 -->
-
-  	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
-
-	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	<link rel="shortcut icon" href="favicon.ico">
-
-	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700,900' rel='stylesheet' type='text/css'>
-
-	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
-
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Simple Line Icons -->
-	<link rel="stylesheet" href="css/simple-line-icons.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
-
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
-
+		<title>Open Neuroimaging Laboratory</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
-	<body>
-	
-	
-	<div id="fh5co-page">
-	<header id="fh5co-header" role="banner">
-		<div class="container">
-			<div class="header-inner">
-				<h1><i class="sl-icon-energy"></i><a href="index.html">Open Neuroimaging Laboratory</a></h1>
-				<nav role="navigation">
-					<ul>
-						<li><a class="active" href="index.html">Home</a></li>
-						<li><a href="https://openneuro.wordpress.com/">Blog</a></li>
-						  <li><a href="#"><i class="icon-twitter"></i></a></li>
-						  <li><a href="#"><i class="icon-facebook"></i></a></li>
-						  <li><a href="#"><i class="icon-github"></i></a></li>
+	<body class="landing">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1 id="logo"><a href="index.html"> Open Neuroimaging Laboratory</a></h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+                            <li>
+								<a href="#">About</a>
+								<ul>
+									<li><a href="#one">What it is</a></li>
+									<li><a href="#two">Purpose and need</a></li>
+                                    <li><a href="#three">What we built</a></li>
+                                    <li><a href="#four">Who we are</a></li>
+								</ul>
+							</li>
+                            <!--
+							<li>
+								<a href="#">Related Projects</a>
+								<ul>
+									<li><a href="left-sidebar.html">BrainBox</a></li>
+									<li><a href="right-sidebar.html">MetaSearch</a></li>
+								</ul>
+							</li>
+                        -->
+                            <li><a href="https://github.com/openNeuroLab" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="#" class="button special">Vote</a></li>
+                            <!--<li><a href="elements.html">Elements</a></li>
+                        -->
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Banner -->
+				<section id="banner">
+					<div class="content">
+						<header>
+							<h2>Find. Access. Improve. Reuse.</h2>
+							<p>Lowering barriers to data and tools for<br />
+							open collaborative science of the brain.</p>
+                            <br />
+                            <ul class="actions">
+                                <li><a href="http://brainbox.pasteur.fr" class="button">BrainBox</a></li>
+                                <li><a href="http://openneu.ro/metasearch" class="button">MetaSearch</a></li>
+                            </ul>
+						</header>
+						<span class="image"><img src="images/brain_sketches.jpg" alt="" /></span>
+					</div>
+					<a href="#one" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- One -->
+				<section id="one" class="spotlight style1 bottom">
+					<span class="image fit main"><img src="images/pic02.jpg" alt="" /></span>
+					<div class="content">
+						<div class="container">
+							<div class="row">
+								<div class="4u 12u$(medium)">
+									<header>
+										<h2>What is the Open Neuroimaging Laboratory</h2>
+										<p>A Web platform for collaborating on open brain imaging data</p>
+									</header>
+                                    <ul class="actions">
+            							<li><a href="https://doi.org/10.3897/rio.2.e9113" target="_blank" class="button">Read Phase I Proposal</a></li>
+            						</ul>
+								</div>
+								<div class="4u 12u$(medium)">
+									<p>The Open Neuroimaging Laboratory is a collaborative platform
+                                        that facilitates finding, improving, and reusing the massive
+                                        amount of neuroimaging data available on the Web. This data
+                                        represents an enormous funding effort and the time and goodwill
+                                        of thousands of participants: researchers, clinicians, patients,
+                                        and their families. We want to maximize its use in brain research,
+                                        medicine, education, and to advance open science.</p>
+								</div>
+								<div class="4u$ 12u$(medium)">
+									<p>Our prototype applications transform these static data into
+                                       "living" matter for collaborative curation and analysis
+                                       using only a Web browser. No data are downloaded, no software
+                                       installed. Users can find data, collaborate online, and incrementally
+                                        improve each other's work. This increases scientific
+                                        efficiency, improves public data quality, and reduces
+                                        redundant effort. Our platform lowers the barriers for
+                                        researchers, students, and citizen scientists to fuel scientific
+                                        discovery.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a href="#two" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- Two -->
+				<section id="two" class="spotlight style2 right">
+					<span class="image fit main"><img src="images/pic03.jpg" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>Purpose and need</h2>
+                            <!--
+							<p>Nunc commodo accumsan eget id nisi eu col volutpat magna</p>
+                        -->
+						</header>
+						<p>Significant investment has been made into collecting and sharing
+                            brain imaging data for thousands of individuals. One key
+                            challenge, however, limits the usability of this data: In order
+                            to work with it, researchers need to download the data locally;
+                            and curation, editing and analysis are then done redundantly by
+                            each research group. This process is painstaking, making that a
+                            large proportion of the shared data is never analysed, wasting
+                            time and funding.
+
+
+                            Our virtual neuroimaging laboratory enables using and enhancing
+                            open resources and social collaboration; and by lowering the
+                            requirements for working on shared data to just a Web browser,
+                            it allows not only researchers, but also citizen scientists to
+                            contribute to scientific discovery.
+                        </p>
+                        <!--
+						<ul class="actions">
+							<li><a href="#" class="button">Learn More</a></li>
+						</ul>
+                    -->
+					</div>
+					<a href="#three" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- Three -->
+				<section id="three" class="spotlight style3 left">
+					<span class="image fit main bottom"><img src="images/pic04.jpg" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>What we built</h2>
+							<p>Prototype applications to find, access, and improve open data.</p>
+						</header>
+						<p>BrainBox – a Web app to work with shared brain imaging data
+                            directly online. Progress becomes incremental: each researcher's
+                            work improves that of the whole community. The community can then
+                            tackle projects that would be impossible for individual research
+                            groups. BrainBox enables a growing catalogue of all MRI data
+                            available online, currently indexing more than 6000 links.
+                        </p>
+                        <ul class="actions">
+							<li><a href="http://brainbox.pasteur.fr" class="button">Goto BrainBox</a></li>
+						</ul>
+                        <p>MetaSearch, another Web app, complements BrainBox by providing
+                            access to additional metadata about participants (e.g., age, sex,
+                            IQ), but also other imaging information (e.g., functional MRI,
+                            diffusion fMRI). It harmonizes the disparate sources of information
+                            and aggregates these metadata in one place, provides an interactive
+                            interface to the user to filter this rich repository of public data,
+                            and find data of relevance. By only considering data that are
+                            publicly and openly available at a URL, MetaSearch also provides
+                            immediate access to the data for applications such as BrainBox.
+                            <!--
+                            Our tool MetaSearch provides an interface for
+                            filtering metadata associated with these brain images and
+                            finding relevant data across all different projects.
+                        -->
+                        </p>
+                        <ul class="actions">
+							<li><a href="http://openneu.ro/metasearch" class="button">Goto MetaSearch</a></li>
+						</ul>
+					</div>
+					<a href="#four" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- Four -->
+				<section id="four" class="wrapper style1 special fade-up">
+					<div class="container">
+						<header class="major">
+							<h2>Our Team</h2>
+							<!--<p>Iaculis ac volutpat vis non enim gravida nisi faucibus posuere arcu consequat</p>
+                            -->
+						</header>
+						<div class="box alt">
+							<div class="row uniform">
+								<section class="3u 5u(medium) 10u$(xsmall)">
+                                    <span class="image fit"><img src="https://avatars3.githubusercontent.com/u/2310732?v=3&s=400" style="border-radius: 100%; display: block" alt="" /></span>
+									<h3>Roberto Toro</h3>
+									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+								</section>
+								<section class="3u 5u$(medium) 10u$(xsmall)">
+                                    <span class="image fit"><img src="https://avatars3.githubusercontent.com/u/6297454?v=3&s=400" style="border-radius: 100%; display: block" alt="" /></span>
+									<h3>Katja Heuer</h3>
+									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+								</section>
+                                <section class="3u 5u(medium) 10u$(xsmall)">
+                                    <span class="image fit"><img src="https://avatars2.githubusercontent.com/u/1858187?v=3&s=400" style="border-radius: 100%; display: block" alt="" /></span>
+									<h3>Amy Lee Sterling</h3>
+									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+								</section>
+								<section class="3u$ 5u$(medium) 10u$(xsmall)">
+                                    <span class="image fit"><img src="https://avatars2.githubusercontent.com/u/184063?v=3&s=400" style="border-radius: 100%; display: block" alt="" /></span>
+									<h3>Satrajit Ghosh</h3>
+									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+								</section>
+							</div>
+						</div>
+                        <!--
+						<footer class="major">
+							<ul class="actions">
+								<li><a href="#" class="button">Magna sed feugiat</a></li>
+							</ul>
+						</footer>
+                        -->
+					</div>
+				</section>
+
+			<!-- Five -->
+				<section id="five" class="wrapper style2 special fade">
+					<div class="container">
+						<header>
+							<h2>Come join us!</h2>
+							<p>Help add data, improve data, or develop code</p>
+						</header>
+						<div class="row">
+                                <ul class="actions fit">
+                                    <li><a href="#" class="button special fit">+ Data to BrainBox</a></li>
+                                    <li><a href="#" class="button special fit">+ Data to MetaSearch</a></li>
+                                    <li><a href="#" class="button special fit">Fix some brains</a></li>
+                                    <li><a href="#" class="button special fit">Develop code</a></li>
+                                </ul>
+						</div>
+					</div>
+				</section>
+
+
+			<!-- Footer -->
+				<footer id="footer">
+                    <ul class="icons">
+                        <li><a href="https://github.com/openNeuroLab" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+                    </ul>
+					<ul class="copyright">
+						<li>&copy; 2016. Open Neuroimaging Laboratory. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
-				</nav>
-			</div>
+				</footer>
+
 		</div>
-	</header>
-	<div id="fh5co-intro-section">
-		<div class="container">
-			<div class="row">
-			    <a href="#" class="featured-grid" style="background-image: url(images/big_banner.png);">
-				<div class="col-md-12 text-center">
-					<h2 style="color: white">Collaborative Applications for Neuroimaging</h2>
-				</div>
-			    </a>
-			</div>
-			<div class="row overlap200">
-			  <div class="col-md-3 col-md-offset-3 overlap100">
-			    <a href="http://brainbox.pasteur.fr/" class="featured-grid featured-grid-2" style="background-image: url(images/brainbox-logo.svg);">
-			      <div class="desc">
-				<h3>BrainBox</h3>
-				<span>Annotate brains with pixel brushes</span>
-			      </div>
-			    </a>
-			  </div>
-			  <div class="col-md-3 overlap100">
-			    <a href="#" class="featured-grid featured-grid-2" style="background-image: url(images/image_8.jpg);">
-			      <div class="desc">
-				<h3>Mindcontrol (Coming soon)</h3>
-				<span>Annotate brains with points and lines</span>
-			      </div>
-			    </a>
-			  </div>
-			</div>
-		</div>
-	</div>
-	
-	<footer id="fh5co-footer" role="contentinfo">
-		<div class="container">
-			<div class="col-md-12 fh5co-copyright text-center">
-				<p>&copy; 2016. CC-BY</p>	
-			</div>
-			
-		</div>
-	</footer>
-	</div>	
-	
-	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- MAIN JS -->
-	<script src="js/main.js"></script>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
 
 	</body>
 </html>
-
