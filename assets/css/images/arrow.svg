@@ -2,4 +2,6 @@
     <style type="text/css"><![CDATA[ line { stroke: #fff; stroke-width: 1; } ]]></style>
 	<line x1="0" y1="0" x2="18" y2="18" />
 	<line x1="36" y1="0" x2="18" y2="18" />
+    <line x1="10" y1="0" x2="18" y2="8" />
+	<line x1="26" y1="0" x2="18" y2="8" />
 </svg>
