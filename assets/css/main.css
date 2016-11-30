@@ -3392,12 +3392,12 @@
 				}
 
 			#banner .content .image {
-				/*border-radius: 100%;*/
+				border-radius: 100%;
 				display: inline-block;
-				height: 28em;
-				/*margin-left: 3em;*/
-				vertical-align: middle;
-				width: 28em;
+				height: 18em;
+				margin-left: 3em;
+				vertical-align: top;
+				width: 18em;
 			}
 
 				#banner .content .image img {
