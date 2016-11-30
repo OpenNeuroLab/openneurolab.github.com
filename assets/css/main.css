@@ -1638,6 +1638,12 @@
 		font-size: 0.7em;
 		line-height: 1.5em;
 	}
+	
+	h7 {
+		font-size: 2em;
+    	font-weight: 200;
+    	line-height: 2em;
+	}
 
 	sub {
 		font-size: 0.8em;
